@@ -1,0 +1,336 @@
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Regular Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Regular Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Regular Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Thin Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Thin Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Thin Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 270;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed ExtraLight.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 270;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow ExtraLight.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 270;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular ExtraLight.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 270;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed ExtraLight Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 270;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow ExtraLight Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 270;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular ExtraLight Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Light.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Light.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Light.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Ligh Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Light Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Light Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Medium Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Medium Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Medium Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Bold Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Bold Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Bold Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed ExtraBold Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow ExtraBold Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular ExtraBold Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Black.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Black.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Black.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Galatea"),
+    url("/galatea/Galatea Condensed Black Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Galatea"),
+    url("/galatea/Galatea Narrow Black Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: galatea;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Galatea"),
+    url("/galatea/Galatea Regular Black Italic.otf") format("opentype");
+}
