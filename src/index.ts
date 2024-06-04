@@ -13,12 +13,12 @@ const play = async () => {
   startShow();
 };
 
-let timer: NodeJS.Timeout;
+let timer: NodeJS.Timeout | null = null;
 const showMenu = () => {
   const menu = document.getElementById("menu");
   menu!.style.display = "block";
-  clearTimeout(timer);
-  setTimeout(() => {
+  if (timer !== null) clearTimeout(timer);
+  timer = setTimeout(() => {
     menu!.style.display = "none";
   }, 3000); // Hide after inactivity
 };
