@@ -1,8 +1,15 @@
-import { publications, Publication } from "./crossref_parser";
+import { getPublications, Publication } from "./crossref_parser";
 import * as THREE from "three";
 import * as TWEEN from "@tweenjs/tween.js";
 
 import { drawPaperToCanvas } from "./drawPaperToCanvas";
+import { materialFromTexture } from "./shader";
+
+let publications = getPublications();
+
+export const updatePublications = (raw_data: JSON) => {
+  publications = getPublications(raw_data);
+};
 
 //make the textured 3d surface of the paper
 const makePaper = (
@@ -15,34 +22,8 @@ const makePaper = (
   //draw the canvas to a texture
   const texture = new THREE.Texture(canvas);
   texture.needsUpdate = true;
-
-  //import the bump map from the same texture but with inverted values
-  const bumpMap = texture.clone();
-  bumpMap.matrix.multiplyScalar(-1);
-  bumpMap.needsUpdate = true;
-  const material = new THREE.MeshPhongMaterial({
-    map: texture,
-    specular: 0x666666,
-    shininess: 20,
-    bumpMap,
-    bumpScale: 5,
-    transparent: true,
-  });
-  /*
-  const material = new THREE.MeshStandardMaterial({
-    map: texture,
-    metalness: 0.5,
-    roughness: 0.8,
-    bumpMap,
-    bumpScale: 0.5,
-  });*/
-
   //create the material
-  /*  const material = new THREE.MeshBasicMaterial({
-    map: texture,
-    transparent: true,
-    side: THREE.DoubleSide,
-  });*/
+  const material = materialFromTexture(texture);
 
   //create the mesh
   const mesh = new THREE.Mesh(new THREE.PlaneGeometry(0.21, 0.297), material);
@@ -50,10 +31,17 @@ const makePaper = (
   mesh.position.copy(position);
   mesh.rotation.copy(rotation);
 
-  //mesh.castShadow = true;
-  //mesh.receiveShadow = true;
-
   return mesh;
+};
+
+const printPaperInfo = (publication: Publication) => {
+  console.log("------------------------------------");
+  console.log("TITLE:\t\t" + publication.title);
+  console.log("AUTHORS:\t" + publication.authors.join(", "));
+  if (publication.journal) {
+    console.log("JOURNAL:\t" + publication.journal);
+  }
+  console.log("DOI:\t\thttps://doi.org/" + publication.doi);
 };
 
 //make a randomized paper and launch it
@@ -79,41 +67,44 @@ export const makeAndLaunchPaper = (
   if (object == null) return;
 
   new TWEEN.Tween(object.position)
-    .to(object.position.multiplyScalar(0.5), delay)
+    .to(object.position.multiplyScalar(0.5), delay) //during delay time, the object will pass half of it's distance to 0,0,0
     .onComplete(() => {
       new TWEEN.Tween(object.position)
         .to(
           new THREE.Vector3().copy(targetPosition).multiplyScalar(0.3),
           fallTime
         )
-        .easing(TWEEN.Easing.Sinusoidal.Out)
+        .easing(TWEEN.Easing.Quadratic.Out)
         .onComplete(() => {
-          //object.receiveShadow = false;
-          console.log("------------------------------------");
-          console.log("TITLE:\t\t" + publication.title);
-          console.log("AUTHORS:\t" + publication.authors.join(", "));
-          if (publication.journal) {
-            console.log("JOURNAL:\t" + publication.journal);
-          }
-          console.log("DOI:\t\thttps://doi.org/" + publication.doi);
+          printPaperInfo(publication);
+
+          const fallTime = 15000 + 10000 * Math.random();
+          const groundTime = 20000;
+          const invertTime = 4000;
 
           setTimeout(() => {
             new TWEEN.Tween(object.position)
-              .to(
-                new THREE.Vector3().copy(finalPosition).multiplyScalar(0.3),
-                15000 + 10000 * Math.random()
-              )
-              .easing(TWEEN.Easing.Sinusoidal.In)
+              .to(new THREE.Vector3().copy(finalPosition), fallTime)
+              .onComplete(() => {
+                scene.remove(object);
+                onRemoveCallback();
+              })
+              .easing(TWEEN.Easing.Sinusoidal.InOut)
               .start();
           }, 200);
-
-          new TWEEN.Tween(object.material)
-            .to({ opacity: 0 }, 20000)
-            .easing(TWEEN.Easing.Quadratic.In)
+          new TWEEN.Tween(object.material.uniforms.invert)
+            .to({ value: 1 }, invertTime * 2)
+            .easing(TWEEN.Easing.Quadratic.InOut)
+            .start();
+          new TWEEN.Tween(object.material.uniforms.opacity)
+            .to({ value: 0 }, invertTime)
             .onComplete(() => {
-              scene.remove(object);
-              onRemoveCallback();
+              new TWEEN.Tween(object.material.uniforms.text_opacity)
+                .to({ value: 0 }, groundTime - invertTime)
+                .easing(TWEEN.Easing.Circular.In)
+                .start();
             })
+            .easing(TWEEN.Easing.Quadratic.In)
             .start();
         })
         .start();

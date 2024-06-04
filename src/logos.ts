@@ -6,17 +6,14 @@ for (let i = 1; i <= 20; i++) {
   logos.push(logo);
 }
 
-export const runWhenLogosLoaded = (callback: () => void) => {
+export const runWhenLogosLoaded = async () => {
   //wait for all logos to load
-  Promise.all(
+  await Promise.all(
     logos.map(
       (logo) =>
         new Promise((resolve) => {
           logo.onload = resolve;
         })
     )
-  ).then(() => {
-    console.log("images loaded");
-    callback();
-  });
+  );
 };

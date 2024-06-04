@@ -24,8 +24,23 @@ wss.on("connection", (ws) => {
   ws.on("message", (message) => {
     const msg = JSON.parse(message.toString());
     console.log(msg);
+
+    //if message is note on, send a recordstart button press
+    if (msg[0] == 144) {
+      console.log("recordstart");
+      output.sendMessage([176, 102, 127]);
+    }
+    // if message is note off, send a recordstop button press
+    if (msg[0] == 128) {
+      setTimeout(() => {
+        console.log("recordstop");
+        output.sendMessage([176, 103, 127]);
+      }, 9000);
+    }
+
     //send output on channel 5
     msg[0] = msg[0] | 4;
+
     output.sendMessage(msg);
   });
 });
