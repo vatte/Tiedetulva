@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tiedetulva</title>
+    <link href="https://fonts.cdnfonts.com/css/galatea" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Galatea";
+        font-size: 1.5rem;
+        background: black;
+        color: white;
+      }
+
+      #playButton {
+        font-size: 4rem;
+        cursor: pointer;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+      }
+      #playButton:hover {
+        color: #ffe24a;
+      }
+
+      #renderer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full height of the viewport */
+      }
+      #menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 1000;
+        text-align: center;
+        width: 100vw;
+      }
+
+      #menu a {
+        font-size: 3rem;
+        margin: 0 4rem;
+        text-decoration: none;
+        color: white;
+      }
+      #menu a:hover {
+        color: #ffe24a;
+      }
+      a {
+        color: white;
+      }
+      a:hover {
+        color: #ffe24a;
+      }
+      #about {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        height: 100vh;
+        width: 100vw;
+        max-width: 1280px;
+        background: black;
+        color: white;
+        padding: 0 4rem;
+        overflow-y: auto;
+      }
+      h3 {
+        font-size: 3rem;
+        font-weight: normal;
+      }
+      #closeButton {
+        position: fixed;
+        top: 0;
+        right: 50%;
+        transform: translate(50%, 0);
+        font-size: 3rem;
+        text-decoration: none;
+      }
+      #closeButton:hover {
+        color: #ffe24a;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="bundle.js"></script>
+    <div id="main">
+      <div id="menu">
+        <a href="#" id="aboutButton">Tietoa</a>
+      </div>
+      <div id="playButton">Aloita</div>
+      <div id="renderer-container"></div>
+    </div>
+    <div id="about" style="display: none">
+      <a href="#" id="closeButton" alt="Palaa pääsivulle">x</a>
+      <h3>Tietoa</h3>
+      <p>
+        Mitäköhän kaikkea uutta tietoa on tätäkin tekstiä lukiessasi ilmestynyt?
+      </p>
+      <p>
+        Tiedon määrä on viime vuosikymmeninä räjähtänyt käsiin. Tämä koskee myös
+        tutkimustietoa. Tiedetulva on immersiivinen audiovisuaalinen teos, joka
+        visualisoi julkaistun tieteen jatkuvaa virtaa. Ajankohtaisten
+        tieteellisten artikkeleiden sisältöä projisoidaan kävijöiden ympärille,
+        ja äänimaisema muodostaa tunteen jatkuvasta tieteellisen tiedon
+        vyörystä. Osallistuja pääsee kokemaan, minkälaista olisi olla kaikesta
+        tietoinen yleistutkija, joka seuraa ajankohtaista tiedettä reaaliajassa
+        kaikilta aloilta.
+      </p>
+      <p>
+        Tiedetulva on vapaasti käytettävissä julkisena installaationa, ja sen
+        <a href="https://www.github.com/vatte/tiedetulva" target="_blank"
+          >lähdekoodi</a
+        >
+        on julkaistu ja vapaasti hyödynnettävissä.
+      </p>
+      <p>
+        Tiedetulvan artikkelit tulevat Crossref-palvelun tietokannasta, käyttäen
+        heidän API-palveluaan. Valmiiksi ladattu data sisältää seuraavanlaisella
+        haulla saadun tuloksen:
+        "https://api.crossref.org/works?rows=1000&sort=published&order=desc&filter=has-abstract:true,until-pub-date:2024-06-06&select=published,DOI,title,author,abstract,container-title".
+        Voit ladata haluamasi sisällön tiedetulvaan hakemalla json-tiedoston
+        omalle koneellesi ilmaista
+        <a
+          href="https://api.crossref.org/swagger-ui/index.html#/Works/get_works"
+          target="_blank"
+          >Crossref-APIa</a
+        >
+        käyttäen ja lisäämällä sen alla olevasta napista. Omassa haussa
+        kannattaa säilyttää
+        "&select=published,DOI,title,author,abstract,container-title" -osuus,
+        jotta Tiedetulva osaa käsitellä tiedoston oikein.
+      </p>
+      <p>
+        Lataa oma tiedosto:
+        <input id="fileInput" type="file" />
+      </p>
+      <p>
+        Tiedetulva on osa Strategisen tutkimuksen neuvoston rahoittaman
+        <a href="https://www.finsci.fi" target="_blank">FINSCI-hankkeen</a>
+        vuorovaikutustoimintaa. FINSCIn tavoitteena on tutkia ja kehittää
+        suomalaista tiedepääomaa ja tehdä tiedettä paremmin kaikille tutuksi.
+      </p>
+    </div>
+  </body>
+</html>
