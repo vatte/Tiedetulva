@@ -19,7 +19,7 @@ export const playNote = (duration: number, delay: number) => {
     console.log("No tone found for duration: " + duration);
     return;
   }
-  const audio = new Audio("/sounds/" + tone.filename);
+  const audio = new Audio("sounds/" + tone.filename);
 
   setTimeout(() => {
     audio.play();
@@ -27,6 +27,6 @@ export const playNote = (duration: number, delay: number) => {
 };
 
 export const playHelloSound = () => {
-  const audio = new Audio("/sounds/hello.mp3");
+  const audio = new Audio("sounds/hello.mp3");
   audio.play();
 };
