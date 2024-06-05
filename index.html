@@ -9,7 +9,7 @@
       body {
         margin: 0;
         font-family: "Galatea";
-        font-size: 1.5rem;
+        font-size: 1rem;
         background: black;
         color: white;
       }
@@ -22,6 +22,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1000;
+        display: none;
       }
       #playButton:hover {
         color: #ffe24a;
@@ -66,10 +67,9 @@
         transform: translate(-50%, 0);
         height: 100vh;
         width: 100vw;
-        max-width: 1280px;
+        max-width: 960px;
         background: black;
         color: white;
-        padding: 0 4rem;
         overflow-y: auto;
       }
       h3 {
@@ -115,11 +115,13 @@
         kaikilta aloilta.
       </p>
       <p>
-        Tiedetulva on vapaasti käytettävissä julkisena installaationa, ja sen
+        Tiedetulva on vapaasti käytettävissä julkisena installaationa, voit
+        käynnistää sen esimerkiksi aulatilassa sijaitsevassa monitorissa
+        avaamalla tämän verkkosivun. Tiedetulvan
         <a href="https://www.github.com/vatte/tiedetulva" target="_blank"
           >lähdekoodi</a
         >
-        on julkaistu ja vapaasti hyödynnettävissä.
+        on myös vapaasti hyödynnettävissä.
       </p>
       <p>
         Tiedetulvan artikkelit tulevat Crossref-palvelun tietokannasta, käyttäen
@@ -133,8 +135,9 @@
           target="_blank"
           >Crossref-APIa</a
         >
-        käyttäen ja lisäämällä sen alla olevasta napista. Omassa haussa
-        kannattaa säilyttää
+        käyttäen ja lisäämällä sen alla olevasta napista. Esimerkiksi lisäämällä
+        rimpsun päähän "&query=hakusana" voit hakea julkaisuja, joissa mainitaan
+        tietty hakusana. Omassa haussa kannattaa säilyttää
         "&select=published,DOI,title,author,abstract,container-title" -osuus,
         jotta Tiedetulva osaa käsitellä tiedoston oikein.
       </p>
@@ -148,6 +151,8 @@
         vuorovaikutustoimintaa. FINSCIn tavoitteena on tutkia ja kehittää
         suomalaista tiedepääomaa ja tehdä tiedettä paremmin kaikille tutuksi.
       </p>
+      <br />
+      <br />
     </div>
   </body>
 </html>
