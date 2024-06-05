@@ -1,4 +1,4 @@
-import raw_data from "./publications_crossref.json";
+import default_data from "./publications_crossref.json";
 
 export interface Publication {
   title: string;
@@ -8,7 +8,10 @@ export interface Publication {
   journal: string | undefined;
 }
 
-export const getPublications: (raw_data?: JSON) => Publication[] = () => {
+export const getPublications: (raw_data?: any) => Publication[] = (
+  raw_data = default_data
+) => {
+  // Your function implementation here
   const publications: Publication[] = [];
 
   for (const item of raw_data.message.items) {
@@ -34,5 +37,8 @@ export const getPublications: (raw_data?: JSON) => Publication[] = () => {
       journal,
     });
   }
+
+  console.log("found " + publications.length + " publications");
+
   return publications;
 };

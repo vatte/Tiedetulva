@@ -10,12 +10,7 @@ import { playNote } from "./audio";
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000000);
 
-const camera = new THREE.PerspectiveCamera(
-  90,
-  window.innerWidth / window.innerHeight,
-  0.1,
-  1000
-);
+const camera = new THREE.PerspectiveCamera(90, 16 / 9, 0.1, 1000);
 camera.position.z = 0;
 camera.position.y = 0;
 
@@ -86,7 +81,8 @@ function launchPaper() {
   const target = renderTargets[0].object;
   // Get the dimensions of the rectangle
   const geometry = target.geometry;
-  const dimensions = new THREE.Vector3(2, 2, 2);
+
+  const dimensions = new THREE.Vector3(3, 1.5, 2);
 
   if (geometry.boundingBox !== null) {
     geometry.boundingBox.getSize(dimensions);

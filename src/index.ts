@@ -6,21 +6,56 @@ import { restartShow } from "./main";
 
 const logosLoadedPromise = runWhenLogosLoaded();
 
-const play = async () => {
+const showPlayButton = () => {
+  document.getElementById("playButton")?.style.setProperty("display", "block");
+};
+const hidePlayButton = () => {
   document.getElementById("playButton")?.style.setProperty("display", "none");
+};
+
+const hideMouseCursorWhenInactive = () => {
+  let timeout: NodeJS.Timeout;
+
+  document.body.style.cursor = "none";
+
+  window.addEventListener("mousemove", () => {
+    // Show the cursor
+    document.body.style.cursor = "auto";
+
+    // Clear the existing timeout
+    clearTimeout(timeout);
+
+    // Set a new timeout
+    timeout = setTimeout(() => {
+      // Hide the cursor
+      document.body.style.cursor = "none";
+    }, 5000); // 5000 milliseconds = 5 seconds
+  });
+};
+
+const play = async () => {
+  hidePlayButton();
+  hideMenu();
   playHelloSound();
   await logosLoadedPromise;
   startShow();
+  hideMouseCursorWhenInactive();
 };
 
 let timer: NodeJS.Timeout | null = null;
-const showMenu = () => {
-  const menu = document.getElementById("menu");
-  menu!.style.display = "block";
+const showMenuForAWhile = () => {
+  showMenu();
   if (timer !== null) clearTimeout(timer);
   timer = setTimeout(() => {
-    menu!.style.display = "none";
+    hideMenu();
   }, 3000); // Hide after inactivity
+};
+
+const showMenu = () => {
+  document.getElementById("menu")!.style.display = "block";
+};
+const hideMenu = () => {
+  document.getElementById("menu")!.style.display = "none";
 };
 
 const showAbout = () => {
@@ -59,9 +94,12 @@ const uploadFile = (e: Event) => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
+  showPlayButton();
+  showMenu();
   document.getElementById("playButton")?.addEventListener("click", play);
 
-  window.addEventListener("mousemove", showMenu);
+  window.addEventListener("mousemove", showMenuForAWhile);
+  window.addEventListener("touchstart", showMenuForAWhile);
 
   document.getElementById("aboutButton")?.addEventListener("click", showAbout);
   document.getElementById("closeButton")?.addEventListener("click", closeAbout);
