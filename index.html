@@ -83,6 +83,7 @@
         background: black;
         color: white;
         overflow-y: auto;
+        overflow-wrap: break-word;
       }
       h3 {
         font-size: 3rem;
@@ -120,11 +121,11 @@
         Tiedon määrä on viime vuosikymmeninä räjähtänyt käsiin. Tämä koskee myös
         tutkimustietoa. Tiedetulva on immersiivinen audiovisuaalinen teos, joka
         visualisoi julkaistun tieteen jatkuvaa virtaa. Ajankohtaisten
-        tieteellisten artikkeleiden sisältöä projisoidaan kävijöiden ympärille,
-        ja äänimaisema muodostaa tunteen jatkuvasta tieteellisen tiedon
-        vyörystä. Osallistuja pääsee kokemaan, minkälaista olisi olla kaikesta
-        tietoinen yleistutkija, joka seuraa ajankohtaista tiedettä reaaliajassa
-        kaikilta aloilta.
+        tieteellisten julkaisujen sisältöä projisoidaan kävijöiden ympärille, ja
+        äänimaisema muodostaa tunteen jatkuvasta tieteellisen tiedon vyörystä.
+        Osallistuja pääsee kokemaan, minkälaista olisi olla kaikesta tietoinen
+        yleistutkija, joka seuraa ajankohtaista tiedettä reaaliajassa kaikilta
+        aloilta.
       </p>
       <p>
         Tiedetulva on vapaasti käytettävissä julkisena installaationa, voit
@@ -136,9 +137,9 @@
         on myös vapaasti hyödynnettävissä.
       </p>
       <p>
-        Tiedetulvan artikkelit tulevat Crossref-palvelun tietokannasta, käyttäen
-        heidän API-palveluaan. Valmiiksi ladattu data sisältää seuraavanlaisella
-        haulla saadun tuloksen:
+        Tiedetulvan tieteelliset julkaisut tulevat Crossref-palvelun
+        tietokannasta, käyttäen heidän API-palveluaan. Valmiiksi ladattu data
+        sisältää seuraavanlaisella haulla saadun tuloksen:
         "https://api.crossref.org/works?rows=1000&sort=published&order=desc&filter=has-abstract:true,until-pub-date:2024-06-06&select=published,DOI,title,author,abstract,container-title".
         Voit ladata haluamasi sisällön tiedetulvaan hakemalla json-tiedoston
         omalle koneellesi ilmaista
