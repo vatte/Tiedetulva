@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=development",
     "watch": "webpack --mode=development --watch",
-    "get-pubs": "curl -o publications_crossref.json 'https://api.crossref.org/works?rows=1000&sort=published&order=desc&filter=has-abstract:true,until-pub-date:2024-06-04&select=published,DOI,title,author,abstract,container-title'",
+    "get-pubs": "curl -o publications_crossref.json 'https://api.crossref.org/works?rows=1000&sort=published&order=desc&filter=has-abstract:true,until-pub-date:2024-10-01&select=published,DOI,title,author,abstract,container-title'",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
