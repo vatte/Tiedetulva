@@ -4,7 +4,7 @@
   "message-version": "1.0.0",
   "message": {
     "facets": {},
-    "total-results": 201,
+    "total-results": 244,
     "items": [
       {
         "published": {
@@ -920,6 +920,143 @@
           "Chemosensory Perception"
         ],
         "abstract": "<jats:p>INTRODUCTION: Infant body odor is subjectively pleasant to parents and activates reward areas in the brain. Hence, body odor perception might contribute to parental bonding. However, it is unknown whether the perceived pleasantness of children's body odor varies over the course of a child's development. METHODS: = 6.4). RESULTS: Odor pleasantness was found to decrease as a function of children's age. Neither sex of the parent nor sex of the child contributed significantly to this effect. CONCLUSIONS: We propose that the effect of age-related changes on personal odor pleasantness reflects olfactory modulation of parental-child relationships. IMPLICATIONS: Our study suggests that perception of young children's personal odor as pleasant may contribute to bonding and thereby caretaking, which is needed to a lesser degree after puberty than before.</jats:p>"
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.evolhumbehav.2023.02.008",
+        "title": [
+          "Sometimes we want vicious friends: People have nuanced preferences for how they want their friends to behave toward them versus others"
+        ],
+        "author": [
+          {
+            "given": "Jaimie Arona",
+            "family": "Krems",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rebecka K.",
+            "family": "Hahnel-Peeters",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Laureon A.",
+            "family": "Merrie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Keelah E.G.",
+            "family": "Williams",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Daniel",
+            "family": "Sznycer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Evolution and Human Behavior"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              28
+            ]
+          ]
+        },
+        "DOI": "10.1126/science.adw0030",
+        "title": [
+          "Assessing soil health with underpants"
+        ],
+        "author": [
+          {
+            "given": "S. Franz",
+            "family": "Bender",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Research Division Agroecology and Environment, Agroscope, Zürich, Switzerland."
+              },
+              {
+                "name": "Department of Plant and Microbial Biology, University of Zürich, Zürich, Switzerland."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marcel G. A.",
+            "family": "van der Heijden",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Division Agroecology and Environment, Agroscope, Zürich, Switzerland."
+              },
+              {
+                "name": "Department of Plant and Microbial Biology, University of Zürich, Zürich, Switzerland."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Science"
+        ]
       },
       {
         "published": {
@@ -5163,6 +5300,37 @@
         "published": {
           "date-parts": [
             [
+              1953,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1038/jid.1953.5",
+        "title": [
+          "A Note on Fingernail Growth*"
+        ],
+        "author": [
+          {
+            "given": "William Bennett",
+            "family": "Bean",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Investigative Dermatology"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               1968,
               10,
               1
@@ -5808,6 +5976,51 @@
         "abstract": "<jats:sec>\n                    <jats:title>Aims:</jats:title>\n                    <jats:p>A popular belief is that alcohol improves the ability to speak in a foreign language. The effect of acute alcohol consumption on perceived foreign language performance and actual foreign language performance in foreign language learners has not been investigated. The aim of the current study was to test the effects of acute alcohol consumption on self-rated and observer-rated verbal foreign language performance in participants who have recently learned this language.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods:</jats:title>\n                    <jats:p>Fifty native German speakers who had recently learned Dutch were randomized to receive either a low dose of alcohol or a control beverage that contained no alcohol. Following the experimental manipulation, participants took part in a standardized discussion in Dutch with a blinded experimenter. The discussion was audio-recorded and foreign language skills were subsequently rated by two native Dutch speakers who were blind to the experimental condition (observer-rating). Participants also rated their own individual Dutch language skills during the discussion (self-rating).</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results:</jats:title>\n                    <jats:p>Participants who consumed alcohol had significantly better observer-ratings for their Dutch language, specifically better pronunciation, compared with those who did not consume alcohol. However, alcohol had no effect on self-ratings of Dutch language skills.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions:</jats:title>\n                    <jats:p>Acute alcohol consumption may have beneficial effects on the pronunciation of a foreign language in people who have recently learned that language.</jats:p>\n                  </jats:sec>",
         "container-title": [
           "Journal of Psychopharmacology"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              14
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-981-16-2229-8_33",
+        "title": [
+          "Smelly Shoes—An Opportunity for Shoe Rack Re-Design"
+        ],
+        "author": [
+          {
+            "given": "Vikash",
+            "family": "Kumar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Sarthak",
+            "family": "Mittal",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Design Science and Innovation",
+          "Ergonomics for Improved Productivity"
         ]
       },
       {
@@ -7785,6 +7998,176 @@
         "published": {
           "date-parts": [
             [
+              2021,
+              10,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1111/ijd.15921",
+        "title": [
+          "Measurement and quantification of cadaveric nasal hairs"
+        ],
+        "author": [
+          {
+            "given": "Christine T.",
+            "family": "Pham",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Anatomy and Neurobiology, University of California Irvine, School of Medicine Irvine CA USA"
+              },
+              {
+                "name": "Department of Dermatology University of California  Irvine CA USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kiana",
+            "family": "Hashemi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Dermatology University of California  Irvine CA USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Bobak",
+            "family": "Hedayati",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Dermatology University of California  Irvine CA USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ella",
+            "family": "Csuka",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Dermatology University of California  Irvine CA USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Arash",
+            "family": "Babadjouni",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Dermatology University of California  Irvine CA USA"
+              },
+              {
+                "name": "Midwestern University, Arizona College of Osteopathic Medicine  Glendale AZ USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Tiana",
+            "family": "Mamaghani",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Dermatology University of California  Irvine CA USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jamie",
+            "family": "Wikenheiser",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Anatomy and Neurobiology, University of California Irvine, School of Medicine Irvine CA USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Margit",
+            "family": "Juhasz",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Dermatology University of California  Irvine CA USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Natasha",
+            "family": "Atanaskova Mesinkovska",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Dermatology University of California  Irvine CA USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "International Journal of Dermatology"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               2011,
               3,
               13
@@ -8111,6 +8494,147 @@
           "Journal of Personality and Social Psychology"
         ],
         "abstract": "<jats:p>This study reports on the relationship between the size of stimulus crowd, standing on busy city street looking up at building, and the response of passersby. As the size of the stimulus crowd was increased greater proportion of passersby adopted the behavior of the crowd. The results of this study suggest modification of the Coleman and James model of the size of freeforming groups to include contagion assumption. Ill typical urban setting, when group of people engage in an action simultaneously, they have the capacity to draw others into the crowd. The actions of the initial group may serve as stimulus for others to imitate this action. A careful analysis of the details of crowd formation is of obvious interest to society in which collective action plays an increasingly important part in social life. One theoretical formulation that bears on this problem is that of Coleman and James (1961). Coleman and James assumed that there is natural process by which free-forming groups acquire and lose members and thus reach specific maximum sizes. They have developed model that generates size distribution that closely approximates the actually observed size distribution of many thousands of groups. The central assumption of their model of acquisition and loss are a constant tendency of group member to break away, independent of the group, thus producing</jats:p>"
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1038/s41561-022-00916-3",
+        "title": [
+          "Intense upper ocean mixing due to large aggregations of spawning fish"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7797-854X",
+            "authenticated-orcid": false,
+            "given": "Bieito",
+            "family": "Fernández Castro",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9000-1060",
+            "authenticated-orcid": false,
+            "given": "Marian",
+            "family": "Peña",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4222-928X",
+            "authenticated-orcid": false,
+            "given": "Enrique",
+            "family": "Nogueira",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3025-4258",
+            "authenticated-orcid": false,
+            "given": "Miguel",
+            "family": "Gilcoto",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6487-5792",
+            "authenticated-orcid": false,
+            "given": "Esperanza",
+            "family": "Broullón",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Antonio",
+            "family": "Comesaña",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2005-9718",
+            "authenticated-orcid": false,
+            "given": "Damien",
+            "family": "Bouffard",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Alberto C.",
+            "family": "Naveira Garabato",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7961-1477",
+            "authenticated-orcid": false,
+            "given": "Beatriz",
+            "family": "Mouriño-Carballido",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature Geoscience"
+        ]
       },
       {
         "published": {
@@ -10399,6 +10923,36 @@
         "published": {
           "date-parts": [
             [
+              2013
+            ]
+          ]
+        },
+        "DOI": "10.1093/ae/59.3.168",
+        "title": [
+          "Arachnophobic Entomologists: When Two More Legs Makes a Big Difference"
+        ],
+        "author": [
+          {
+            "given": "Richard S.",
+            "family": "Vetter",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "American Entomologist"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               2013,
               1,
               23
@@ -11332,6 +11886,38 @@
         "published": {
           "date-parts": [
             [
+              2017,
+              5,
+              16
+            ]
+          ]
+        },
+        "DOI": "10.3389/fpsyg.2017.00702",
+        "title": [
+          "From Data to Truth in Psychological Science. A Personal Perspective."
+        ],
+        "author": [
+          {
+            "given": "Fritz",
+            "family": "Strack",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Frontiers in Psychology"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               2021
             ]
           ]
@@ -11980,6 +12566,49 @@
         "published": {
           "date-parts": [
             [
+              2006,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.gie.2005.10.014",
+        "title": [
+          "Colonoscopy in the sitting position: lessons learned from self-colonoscopy by using a small-caliber, variable-stiffness colonoscope"
+        ],
+        "author": [
+          {
+            "given": "Akira",
+            "family": "Horiuchi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yoshiko",
+            "family": "Nakayama",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Gastrointestinal Endoscopy"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               2014,
               7,
               28
@@ -12133,6 +12762,97 @@
           "Urology"
         ],
         "abstract": "<jats:p>A stamp technique was developed to detect complete nocturnal erections for the evaluation of impotence. The test correctly detected complete nocturnal erections in 22 potent men and absence of complete nocturnal erections in 11 impotent men (P value under 0.001). This is a simple, useful screening test for organic impotence.</jats:p>"
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.leaqua.2018.01.004",
+        "title": [
+          "Righting a wrong: Retaliation on a voodoo doll symbolizing an abusive supervisor restores justice"
+        ],
+        "author": [
+          {
+            "given": "Lindie H.",
+            "family": "Liang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Douglas J.",
+            "family": "Brown",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Huiwen",
+            "family": "Lian",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Samuel",
+            "family": "Hanig",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "D. Lance",
+            "family": "Ferris",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lisa M.",
+            "family": "Keeping",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "The Leadership Quarterly"
+        ]
       },
       {
         "published": {
@@ -13935,6 +14655,61 @@
         "published": {
           "date-parts": [
             [
+              2013,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.paid.2013.05.001",
+        "title": [
+          "Creatures of the night: Chronotypes and the Dark Triad traits"
+        ],
+        "author": [
+          {
+            "given": "Peter K.",
+            "family": "Jonason",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Amy",
+            "family": "Jones",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Minna",
+            "family": "Lyons",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Personality and Individual Differences"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               2003,
               7
             ]
@@ -14851,6 +15626,232 @@
         "published": {
           "date-parts": [
             [
+              2002,
+              10,
+              17
+            ]
+          ]
+        },
+        "DOI": "10.1038/419685a",
+        "title": [
+          "An onion enzyme that makes the eyes water"
+        ],
+        "author": [
+          {
+            "given": "S.",
+            "family": "Imai",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "N.",
+            "family": "Tsuge",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "M.",
+            "family": "Tomotake",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Y.",
+            "family": "Nagatome",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "H.",
+            "family": "Sawada",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "T.",
+            "family": "Nagata",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "H.",
+            "family": "Kumagai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1995,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1016/0305-4403(95)90008-x",
+        "title": [
+          "Human digestive effects on a micromammalian skeleton"
+        ],
+        "author": [
+          {
+            "given": "Brian D.",
+            "family": "Crandall",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peter W.",
+            "family": "Stahl",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Archaeological Science"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.applanim.2010.02.004",
+        "title": [
+          "Are cows more likely to lie down the longer they stand?"
+        ],
+        "author": [
+          {
+            "given": "Bert J.",
+            "family": "Tolkamp",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marie J.",
+            "family": "Haskell",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fritha M.",
+            "family": "Langford",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "David J.",
+            "family": "Roberts",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Colin A.",
+            "family": "Morgan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Applied Animal Behaviour Science"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               1983,
               9
             ]
@@ -15018,6 +16019,61 @@
         "abstract": "<jats:p>In two experiments, we investigated whether body posture influences people’s estimation of quantities. According to the mental-number-line theory, people mentally represent numbers along a line with smaller numbers on the left and larger numbers on the right. We hypothesized that surreptitiously making people lean to the right or to the left would affect their quantitative estimates. Participants answered estimation questions while standing on a Wii Balance Board. Posture was manipulated within subjects so that participants answered some questions while they leaned slightly to the left, some questions while they leaned slightly to the right, and some questions while they stood upright. Crucially, participants were not aware of this manipulation. Estimates were significantly smaller when participants leaned to the left than when they leaned to the right.</jats:p>",
         "container-title": [
           "Psychological Science"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1016/s1053-8119(09)71202-9",
+        "title": [
+          "Neural correlates of interspecies perspective taking in the post-mortem Atlantic Salmon: an argument for multiple comparisons correction"
+        ],
+        "author": [
+          {
+            "given": "CM",
+            "family": "Bennett",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "MB",
+            "family": "Miller",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "GL",
+            "family": "Wolford",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "NeuroImage"
         ]
       },
       {
@@ -15778,6 +16834,61 @@
         "published": {
           "date-parts": [
             [
+              2010,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.physa.2009.09.045",
+        "title": [
+          "The Peter principle revisited: A computational study"
+        ],
+        "author": [
+          {
+            "given": "Alessandro",
+            "family": "Pluchino",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrea",
+            "family": "Rapisarda",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Cesare",
+            "family": "Garofalo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physica A: Statistical Mechanics and its Applications"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               2009,
               10,
               28
@@ -16027,6 +17138,37 @@
         "published": {
           "date-parts": [
             [
+              1998,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1002/1529-0131(199805)41:5<949::aid-art36>3.0.co;2-3",
+        "title": [
+          "Does knuckle cracking lead to arthritis of the fingers?"
+        ],
+        "author": [
+          {
+            "given": "Donald L.",
+            "family": "Unger",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Arthritis &amp; Rheumatism"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               2007,
               12,
               13
@@ -16079,6 +17221,61 @@
           "Nature"
         ],
         "abstract": "<jats:p>As predicted by Darwin, bipedal posture and locomotion are key distinguishing features of the earliest known hominins. Hominin axial skeletons show many derived adaptations for bipedalism, including an elongated lumbar region, both in the number of vertebrae and their lengths, as well as a marked posterior concavity of wedged lumbar vertebrae, known as a lordosis. The lordosis stabilizes the upper body over the lower limbs in bipeds by positioning the trunk's centre of mass (COM) above the hips. However, bipedalism poses a unique challenge to pregnant females because the changing body shape and the extra mass associated with pregnancy shift the trunk's COM anterior to the hips. Here we show that human females have evolved a derived curvature and reinforcement of the lumbar vertebrae to compensate for this bipedal obstetric load. Similarly dimorphic morphologies in fossil vertebrae of Australopithecus suggest that this adaptation to fetal load preceded the evolution of Homo.</jats:p>"
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2001,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1016/s1389-1723(01)80326-1",
+        "title": [
+          "Microbial treatment of kitchen refuse with enzyme-producing thermophilic bacteria from Giant Panda feces."
+        ],
+        "author": [
+          {
+            "given": "Fumiaki",
+            "family": "Taguchi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Song",
+            "family": "Guofu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zhang",
+            "family": "Guanglei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Bioscience and Bioengineering"
+        ]
       },
       {
         "published": {
@@ -16262,6 +17459,135 @@
         "published": {
           "date-parts": [
             [
+              2008,
+              3,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1001/jama.299.9.1016",
+        "title": [
+          "Commercial Features of Placebo and Therapeutic Efficacy"
+        ],
+        "container-title": [
+          "JAMA"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2000,
+              9,
+              28
+            ]
+          ]
+        },
+        "DOI": "10.1038/35035159",
+        "title": [
+          "Maze-solving by an amoeboid organism"
+        ],
+        "author": [
+          {
+            "given": "Toshiyuki",
+            "family": "Nakagaki",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hiroyasu",
+            "family": "Yamada",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ágota",
+            "family": "Tóth",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.evolhumbehav.2007.06.002",
+        "title": [
+          "Ovulatory cycle effects on tip earnings by lap dancers: economic evidence for human estrus?☆"
+        ],
+        "author": [
+          {
+            "given": "Geoffrey",
+            "family": "Miller",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Joshua M.",
+            "family": "Tybur",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Brent D.",
+            "family": "Jordan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Evolution and Human Behavior"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               2007,
               10,
               16
@@ -16309,6 +17635,24 @@
         "abstract": "<jats:p>\n                    It is well known that a jostled string tends to become knotted; yet the factors governing the “spontaneous” formation of various knots are unclear. We performed experiments in which a string was tumbled inside a box and found that complex knots often form within seconds. We used mathematical knot theory to analyze the knots. Above a critical string length, the probability\n                    <jats:italic>P</jats:italic>\n                    of knotting at first increased sharply with length but then saturated below 100%. This behavior differs from that of mathematical self-avoiding random walks, where\n                    <jats:italic>P</jats:italic>\n                    has been proven to approach 100%. Finite agitation time and jamming of the string due to its stiffness result in lower probability, but\n                    <jats:italic>P</jats:italic>\n                    approaches 100% with long, flexible strings. We analyzed the knots by calculating their Jones polynomials via computer analysis of digital photos of the string. Remarkably, almost all were identified as prime knots: 120 different types, having minimum crossing numbers up to 11, were observed in 3,415 trials. All prime knots with up to seven crossings were observed. The relative probability of forming a knot decreased exponentially with minimum crossing number and Möbius energy, mathematical measures of knot complexity. Based on the observation that long, stiff strings tend to form a coiled structure when confined, we propose a simple model to describe the knot formation based on random “braid moves” of the string end. Our model can qualitatively account for the observed distribution of knots and dependence on agitation time and string length.\n                  </jats:p>",
         "container-title": [
           "Proceedings of the National Academy of Sciences"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1985,
+              11,
+              21
+            ]
+          ]
+        },
+        "DOI": "10.1056/nejm198511213132111",
+        "title": [
+          "Effect of Coke on Sperm Motility"
+        ],
+        "container-title": [
+          "New England Journal of Medicine"
         ]
       },
       {
@@ -16475,6 +17819,128 @@
           "BMJ"
         ],
         "abstract": "<jats:p>OBJECTIVE: To evaluate information on the practice and associated ill effects of sword swallowing. DESIGN: Letters sent to sword swallowers requesting information on technique and complications. SETTING: Membership lists of the Sword Swallowers' Association International. PARTICIPANTS: 110 sword swallowers from 16 countries. RESULTS: We had information from 46 sword swallowers. Major complications are more likely when the swallower is distracted or swallows multiple or unusual swords or when previous injury is present. Perforations mainly involve the oesophagus and usually have a good prognosis. Sore throats are common, particularly while the skill is being learnt or when performances are too frequent. Major gastrointestinal bleeding sometimes occurs, and occasional chest pains tend to be treated without medical advice. Sword swallowers without healthcare coverage expose themselves to financial as well as physical risk. CONCLUSIONS: Sword swallowers run a higher risk of injury when they are distracted or adding embellishments to their performance, but injured performers have a better prognosis than patients who suffer iatrogenic perforation.</jats:p>"
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2002,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1038/419579b",
+        "title": [
+          "Wrinkling of an elastic sheet under tension"
+        ],
+        "author": [
+          {
+            "given": "E.",
+            "family": "Cerda",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "K.",
+            "family": "Ravi-Chandar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "L.",
+            "family": "Mahadevan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1978,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1111/j.1438-8677.1978.tb00267.x",
+        "title": [
+          "AUTOTROPHIC ORGANISMS IN MATTRESS DUST IN THE NETHERLANDS"
+        ],
+        "author": [
+          {
+            "given": "B.",
+            "family": "Van De Lustgraaf",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Laboratorium voor Minibiologie, Dermatologisch Instituut, Rijksuniversiteit, Utrecht en Botanisch Laboratorium, Katholieke Universiteit; Nijmegen"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "J. H. H. M.",
+            "family": "Klerkx",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratorium voor Minibiologie, Dermatologisch Instituut, Rijksuniversiteit, Utrecht en Botanisch Laboratorium, Katholieke Universiteit; Nijmegen"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "J. E. M. H.",
+            "family": "Van Bronswijk",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratorium voor Minibiologie, Dermatologisch Instituut, Rijksuniversiteit, Utrecht en Botanisch Laboratorium, Katholieke Universiteit; Nijmegen"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Acta Botanica Neerlandica"
+        ]
       },
       {
         "published": {
@@ -16849,6 +18315,189 @@
         "published": {
           "date-parts": [
             [
+              1976,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0140-6736(76)92675-1",
+        "title": [
+          "WOODPECKERS AND HEAD INJURY"
+        ],
+        "author": [
+          {
+            "given": "PhilipR.A.",
+            "family": "May",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "JoaquinM.",
+            "family": "Fuster",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Paul",
+            "family": "Newman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ada",
+            "family": "Hirschman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "The Lancet"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1986,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.3758/bf03211488",
+        "title": [
+          "Psychoacoustics of a chilling sound"
+        ],
+        "author": [
+          {
+            "given": "D. Lynn",
+            "family": "Halpern",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Randolph",
+            "family": "Blake",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "James",
+            "family": "Hillenbrand",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Perception &amp; Psychophysics"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2006
+            ]
+          ]
+        },
+        "DOI": "10.1002/acp.1178",
+        "title": [
+          "Consequences of erudite vernacular utilized irrespective of necessity: problems with using long words needlessly"
+        ],
+        "author": [
+          {
+            "given": "Daniel M.",
+            "family": "Oppenheimer",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Applied Cognitive Psychology"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1988,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0196-0644(88)80594-8",
+        "title": [
+          "Termination of intractable hiccups with digital rectal massage"
+        ],
+        "author": [
+          {
+            "given": "Francis M",
+            "family": "Fesmire",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Emergency Medicine"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               1993,
               12,
               1
@@ -17001,6 +18650,37 @@
         "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>The ultrasonic velocity in Cheddar cheese is temperature dependent. This relationship can be used to make corrections when determining ultrasonic texture or to determine mean temperatures in cooling/heating processes. At 0 &lt; T &lt; 35 °C ultrasonic velocity was 1590 to 1696 m/s, at 0 and 35 °C, respectively. Differential Scanning Calorimetry thermograms linked the temperature dependence of ultrasonic velocity to fat melting. Three parts are distinguished in the curve as a consequence of the fat melting and the appearance of free oil. The most reliable temperature interval to carry out ultrasonic measurements in Cheddar cheese is identified as 0 to 17 °C.</jats:p>",
         "container-title": [
           "Journal of Food Science"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1996,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0140-6736(05)65812-6",
+        "title": [
+          "On human odour, malaria mosquitoes, and Limburger cheese"
+        ],
+        "author": [
+          {
+            "given": "Bart GJ",
+            "family": "Knols",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "The Lancet"
         ]
       },
       {
@@ -17373,6 +19053,50 @@
         "published": {
           "date-parts": [
             [
+              2003,
+              12,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1007/s00300-003-0563-3",
+        "title": [
+          "Pressures produced when penguins pooh?calculations on avian defaecation"
+        ],
+        "author": [
+          {
+            "given": "Victor Benno",
+            "family": "Meyer-Rochow",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jozsef",
+            "family": "Gal",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Polar Biology"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               1992,
               9
             ]
@@ -17514,6 +19238,37 @@
         "published": {
           "date-parts": [
             [
+              2003,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0990-7440(03)00017-2",
+        "title": [
+          "Sounds produced by herring (Clupea harengus) bubble release"
+        ],
+        "author": [
+          {
+            "given": "M",
+            "family": "Wahlberg",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Aquatic Living Resources"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               2004,
               2,
               7
@@ -17581,6 +19336,38 @@
           "Proceedings of the Royal Society of London. Series B: Biological Sciences"
         ],
         "abstract": "<jats:p>The commercial importance of Pacific and Atlantic herring (Clupea pallasii and Clupea harengus) has ensured that much of their biology has received attention. However, their sound production remains poorly studied. We describe the sounds made by captive wild-caught herring. Pacific herring produce distinctive bursts of pulses, termed Fast Repetitive Tick (FRT) sounds. These trains of broadband pulses (1.7-22 kHz) lasted between 0.6 s and 7.6 s. Most were produced at night; feeding regime did not affect their frequency, and fish produced FRT sounds without direct access to the air. Digestive gas or gulped air transfer to the swim bladder, therefore, do not appear to be responsible for FRT sound generation. Atlantic herring also produce FRT sounds, and video analysis showed an association with bubble expulsion from the anal duct region (i.e. from the gut or swim bladder). To the best of the authors' knowledge, sound production by such means has not previously been described. The function(s) of these sounds are unknown, but as the per capita rates of sound production by fish at higher densities were greater, social mediation appears likely. These sounds may have consequences for our understanding of herring behaviour and the effects of noise pollution.</jats:p>"
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              9,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.3142/107951403782872051",
+        "title": [
+          "The Fastest Man on Earth"
+        ],
+        "author": [
+          {
+            "given": "Nick T.",
+            "family": "Spark",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Improbable Research"
+        ]
       },
       {
         "published": {
@@ -17817,6 +19604,106 @@
         "abstract": "<jats:p>Structural MRIs of the brains of humans with extensive navigation experience, licensed London taxi drivers, were analyzed and compared with those of control subjects who did not drive taxis. The posterior hippocampi of taxi drivers were significantly larger relative to those of control subjects. A more anterior hippocampal region was larger in control subjects than in taxi drivers. Hippocampal volume correlated with the amount of time spent as a taxi driver (positively in the posterior and negatively in the anterior hippocampus). These data are in accordance with the idea that the posterior hippocampus stores a spatial representation of the environment and can expand regionally to accommodate elaboration of this representation in people with a high dependence on navigational skills. It seems that there is a capacity for local plastic change in the structure of the healthy adult human brain in response to environmental demands.</jats:p>",
         "container-title": [
           "Proceedings of the National Academy of Sciences"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1997,
+              2,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1038/385493a0",
+        "title": [
+          "Politicians' uniquely simple personalities"
+        ],
+        "author": [
+          {
+            "given": "Gian Vittorio",
+            "family": "Caprara",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Claudio",
+            "family": "Barbaranelli",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Philip G.",
+            "family": "Zimbardo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              5,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.3142/107951403782199969",
+        "title": [
+          "Trinkaus: An Informal Look"
+        ],
+        "author": [
+          {
+            "given": "Alice Shirrell",
+            "family": "Kaswell",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Rachael Moeller",
+            "family": "Gorman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Improbable Research"
         ]
       },
       {
@@ -18067,6 +19954,38 @@
         "published": {
           "date-parts": [
             [
+              1976,
+              2,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1038/259426b0",
+        "title": [
+          "Scrotal asymmetry in man and in ancient sculpture"
+        ],
+        "author": [
+          {
+            "given": "I. C.",
+            "family": "McMANUS",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               1984,
               11
             ]
@@ -18094,6 +20013,37 @@
           "The Journal of Trauma: Injury, Infection, and Critical Care"
         ],
         "abstract": "<jats:p>Falling coconuts can cause injury to the head, back, and shoulders. A 4-year review of trauma admissions to the Provincial Hospital, Alotau, Milne Bay Province, Papua New Guinea, revealed that 2.5% of such admissions were due to being struck by falling coconuts. Since mature coconut palms may have a height of 24 up to 35 meters and an unhusked coconut may weigh 1 to 4 kg, blows to the head of a force exceeding 1 metric ton are possible. Four patients with head injuries due to falling coconuts are described. Two required craniotomy. Two others died instantly in the village after being struck by dropping nuts.</jats:p>"
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1975,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.2307/1128833",
+        "title": [
+          "An Ecological Study of Glee in Small Groups of Preschool Children"
+        ],
+        "author": [
+          {
+            "given": "Lawrence W.",
+            "family": "Sherman",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Child Development"
+        ]
       },
       {
         "published": {
@@ -18469,6 +20419,38 @@
         "published": {
           "date-parts": [
             [
+              1999,
+              2,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1038/17203",
+        "title": [
+          "Physics takes the biscuit"
+        ],
+        "author": [
+          {
+            "given": "Len",
+            "family": "Fisher",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nature"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               1998,
               2,
               15
@@ -18521,6 +20503,73 @@
           "The Journal of Experimental Zoology"
         ],
         "abstract": "<jats:p>Parturition in fingernail clams (Sphaerium spp.) can be induced by external application of serotonin and serotonergic ligands. Selective serotonin re-uptake inhibitors (SSRIs) increase neurotransmission at serotonergic synapses by blocking re-uptake transporters. We tested the efficacy of SSRIs (fluvoxamine, fluoxetine, paroxetine) at inducing parturition in the fingernail clam Sphaerium striatinum. Parturition was induced by fluvoxamine and paroxetine, but only potentiated by fluoxetine. Fluvoxamine was potent, significantly inducing parturition at concentrations from 10 nM to 100 microM compared with negative controls. Fluvoxamine also significantly potentiated a subthreshold (10 microM) concentration of serotonin. Paroxetine also induced parturition but was less potent. Only 10 microM paroxetine significantly induced parturition compared with controls. Fluoxetine (1-100 microM) did not induce any parturitions, but at 5 microM it potentiated parturition in subthreshold serotonin concentrations as low as 50 nM. These results suggest the presence of serotonin re-uptake transporters in bivalve molluscs and may provide a way of stimulating serotonergic mechanisms without using serotonin or its ligands.</jats:p>"
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1996,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0140-6736(96)06408-2",
+        "title": [
+          "A man who pricked his finger and smelled putrid for 5 years"
+        ],
+        "author": [
+          {
+            "given": "Caroline M",
+            "family": "Mills",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Meirion B",
+            "family": "Llewelyn",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "David R",
+            "family": "Kelly",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Peter",
+            "family": "Holt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "The Lancet"
+        ]
       },
       {
         "published": {
@@ -18663,6 +20712,37 @@
         "published": {
           "date-parts": [
             [
+              1975,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1080/00431672.1975.9931768",
+        "title": [
+          "Chicken Plucking as Measure of Tornado Wind Speed"
+        ],
+        "author": [
+          {
+            "given": "B.",
+            "family": "Vonnegut",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Weatherwise"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               1995,
               7,
               18
@@ -18691,6 +20771,36 @@
           "European Journal of Physics"
         ],
         "abstract": "<jats:p>We investigate the dynamics of toast tumbling from a table to the floor. Popular opinion is that the final state is usually butter-side down, and constitutes prima facie evidence of Murphy's Law ('If it can go wrong, it will'). The orthodox view, in contrast, is that the phenomenon is essentially random, with a 50/50 split of possible outcomes. We show that toast does indeed have an inherent tendency to land butter-side down for a wide range of conditions. Furthermore, we show that this outcome is ultimately ascribable to the values of the fundamental constants. As such, this manifestation of Murphy's Law appears to be an ineluctable feature of our universe.</jats:p>"
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        },
+        "DOI": "10.2307/466856",
+        "title": [
+          "Transgressing the Boundaries: Toward a Transformative Hermeneutics of Quantum Gravity"
+        ],
+        "author": [
+          {
+            "given": "Alan D.",
+            "family": "Sokal",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Social Text"
+        ]
       },
       {
         "published": {
@@ -18770,6 +20880,61 @@
         "abstract": "<jats:p><jats:bold>Background:</jats:bold> The association of stress, distress, and coping behaviors with periodontal disease was assessed.</jats:p><jats:p><jats:bold>Methods:</jats:bold> A cross‐sectional study of 1,426 subjects between the ages of 25 and 74 years in Erie County, New York, was carried out to assess these relationships. Subjects were asked to complete a set of 5 psychosocial questionnaires which measure psychological traits and attitudes including discrete life events and their impact; chronic stress or daily strains; distress; coping styles and strategies; and hassles and uplifts. Clinical assessment of supragingival plaque, gingival bleeding, subgingival calculus, probing depth, clinical attachment level (CAL) and radiographic alveolar crestal height (ACH) was performed, and 8 putative bacterial pathogens from the subgingival flora measured.</jats:p><jats:p><jats:bold>Results:</jats:bold> Reliability of subjects' responses and internal consistencies of all the subscales on the instruments used were high, with Cronbach's alpha ranging from 0.88 for financial strain to 0.99 for job strain, uplifts, and hassles. Logistic regression analysis indicated that, of all the daily strains investigated, only financial strain was significantly associated with greater attachment and alveolar bone loss (odds ratio, OR = 1.70, 95% CI = 1.09 to 2.65 and OR = 1.68, 95% CI = 1.20 to 2.37, respectively) after adjusting for age, gender, and cigarette smoking. When coping behaviors were evaluated, it was found that those with more financial strain who were high emotion‐focused copers (a form of inadequate coping) had a higher risk of having more severe attachment loss (OR = 2.24, 95% CI = 1.15 to 4.38) and alveolar bone loss (OR = 1.91, 95% CI = 1.15 to 3.17) than those with low levels of financial strain within the same coping group, after adjustment for age, gender, and cigarette smoking. Similar results were found among the low problem‐focused copers for AL (OR = 2.21, 95% CI = 1.11 to 4.38) and ACH (OR = 2.12, 95% CI = 1.28 to 3.51). However, subjects with high levels of financial strain who reported high levels of problem‐based coping (considered adequate or good coping) had no more periodontal disease than those with low levels of financial strain, suggesting that the effects of stress on periodontal disease can be moderated by adequate coping behaviors.</jats:p><jats:p><jats:bold>Conclusions:</jats:bold> We find that psychosocial measures of stress associated with financial strain and distress manifest as depression, are significant risk indicators for more severe periodontal disease in adults in an age‐adjusted model in which gender (male), smoking, diabetes mellitus, <jats:italic>B. forsythus</jats:italic>, and <jats:italic>P. gingivalis</jats:italic> are also significant risk indicators. Of considerable interest is the fact that adequate coping behaviors as evidenced by high levels of problem‐based coping, may reduce the stress‐associated risk. Further studies also are needed to help establish the time course of stress, distress, and inadequate coping with respect to the onset and progression of periodontal disease, and the mechanisms that explain this association. <jats:italic>J Periodontol 1999;70: 711‐723.</jats:italic></jats:p>",
         "container-title": [
           "Journal of Periodontology"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1994,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1016/0032-5910(94)02882-6",
+        "title": [
+          "A study of the effects of water content on the compaction behaviour of breakfast cereal flakes"
+        ],
+        "author": [
+          {
+            "given": "D.M.R.",
+            "family": "Georget",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Parker",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.C.",
+            "family": "Smith",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Powder Technology"
         ]
       },
       {
@@ -19008,6 +21173,93 @@
         "published": {
           "date-parts": [
             [
+              1970,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.2105/ajph.60.5.926",
+        "title": [
+          "Salmonella excretion in joy-riding pigs."
+        ],
+        "author": [
+          {
+            "suffix": "Jr",
+            "given": "L P",
+            "family": "Williams",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "K W",
+            "family": "Newell",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "American Journal of Public Health and the Nations Health"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
+              1989,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.2307/1059094",
+        "title": [
+          "Surviving the Great Depression of 1990"
+        ],
+        "author": [
+          {
+            "given": "Edward",
+            "family": "Tower",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ravi",
+            "family": "Batra",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Southern Economic Journal"
+        ]
+      },
+      {
+        "published": {
+          "date-parts": [
+            [
               1993,
               9,
               2
@@ -19173,6 +21425,6 @@
         "abstract": "<jats:p>Short-chain fatty acids from the socks and feet of subjects either with strong foot odour or with weak or no foot odour were extracted with ethyl ether, and then analysed by gas chromatography/mass spectrometry (GC/MS). Short chain fatty acids were found in greater amounts from those subjects with strong foot odour. Iso-valeric acid was present in all the subjects with foot odour but was not detected in those without. Olfactory evaluations of the various short-chain fatty acid solutions were in agreement with the GC/MS analyses. By incubating sweat and lipid from subjects with strong foot odour, we succeeded in reproducing the foot malodour. GC/MS analyses of reproduced foot odour revealed that short-chain fatty acids were present in a similar composition to that found in vivo.</jats:p>"
       }
     ],
-    "items-per-page": 201
+    "items-per-page": 244
   }
 }

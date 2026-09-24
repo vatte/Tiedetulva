@@ -1,12 +1,15 @@
 import { logos } from "./logos";
 import { Publication } from "./crossref_parser";
 import { roundRect } from "./helpers";
+import { PAPER } from "./params";
 
-const FONT_SIZE_TITLE = 16;
-const FONT_SIZE_AUTHOR = 10;
-const FONT_SIZE_ABSTRACT = 10;
-
-const paperColors = ["#6ec498", "#ffe24a", "#fcb116", "#f8bccd"];
+const {
+  FONT_SIZE_TITLE,
+  FONT_SIZE_AUTHOR,
+  FONT_SIZE_ABSTRACT,
+  FONT_FAMILY,
+  COLORS: paperColors,
+} = PAPER;
 
 const getLines = (
   ctx: CanvasRenderingContext2D,
@@ -83,9 +86,22 @@ const getLines2 = (
   return lines;
 };
 
-export const drawPaperToCanvas = (publication: Publication) => {
+export interface PaperStyle {
+  color: string;
+  logo: HTMLImageElement;
+}
+
+export const randomPaperStyle = (): PaperStyle => ({
+  color: paperColors[Math.floor(Math.random() * paperColors.length)],
+  logo: logos[Math.floor(Math.random() * logos.length)],
+});
+
+export const drawPaperToCanvas = (
+  publication: Publication,
+  style: PaperStyle = randomPaperStyle()
+) => {
   const canvas = document.createElement("canvas");
-  const upscale = 2;
+  const upscale = PAPER.CANVAS_UPSCALE;
 
   canvas.width = 210 * upscale;
   canvas.height = 297 * upscale;
@@ -93,20 +109,19 @@ export const drawPaperToCanvas = (publication: Publication) => {
   //draw the publication title to canvas
   const ctx = canvas.getContext("2d");
   if (ctx == null) {
-    console.log("ctx is null");
-    return;
+    throw new Error("Could not get a 2d context for drawing a paper");
   }
 
   let yPosition = 40 * upscale;
   //ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = paperColors[Math.floor(Math.random() * paperColors.length)];
+  ctx.fillStyle = style.color;
   //draw a rounded rectangle
   ctx.beginPath();
   roundRect(ctx, 0, 0, canvas.width, canvas.height, 4 * upscale);
   ctx.fill();
   ctx.closePath();
   ctx.fillStyle = "black";
-  ctx.font = `${FONT_SIZE_TITLE * upscale}px Galatea`;
+  ctx.font = `${FONT_SIZE_TITLE * upscale}px ${FONT_FAMILY}`;
 
   getLines2(
     ctx,
@@ -120,7 +135,7 @@ export const drawPaperToCanvas = (publication: Publication) => {
   yPosition += FONT_SIZE_ABSTRACT * upscale;
 
   //draw the publication authors to canvas
-  ctx.font = `italic ${FONT_SIZE_AUTHOR * upscale}px Galatea`;
+  ctx.font = `italic ${FONT_SIZE_AUTHOR * upscale}px ${FONT_FAMILY}`;
   getLines(
     ctx,
     publication.authors.join(", "),
@@ -133,7 +148,7 @@ export const drawPaperToCanvas = (publication: Publication) => {
   yPosition += FONT_SIZE_ABSTRACT * upscale;
 
   //draw the publication abstract to canvas
-  ctx.font = `${FONT_SIZE_ABSTRACT * upscale}px Galatea`;
+  ctx.font = `${FONT_SIZE_ABSTRACT * upscale}px ${FONT_FAMILY}`;
   getLines(ctx, publication.abstract, canvas.width - 40 * upscale).forEach(
     (line) => {
       ctx.fillText(line, 20 * upscale, yPosition);
@@ -142,9 +157,8 @@ export const drawPaperToCanvas = (publication: Publication) => {
   );
 
   //draw the publication logo to canvas
-  const logo = logos[Math.floor(Math.random() * logos.length)];
   ctx.drawImage(
-    logo,
+    style.logo,
     canvas.width - 80 * upscale,
     20 * upscale,
     60 * upscale,

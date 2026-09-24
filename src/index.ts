@@ -1,8 +1,9 @@
 import { runWhenLogosLoaded } from "./logos";
 import { startShow } from "./main";
-import { playHelloSound } from "./audio";
+import { initAudio } from "./audio";
 import { updatePublications } from "./makePaper";
 import { restartShow } from "./main";
+import { PAPER, UI } from "./params";
 
 const logosLoadedPromise = runWhenLogosLoaded();
 
@@ -29,15 +30,17 @@ const hideMouseCursorWhenInactive = () => {
     timeout = setTimeout(() => {
       // Hide the cursor
       document.body.style.cursor = "none";
-    }, 5000); // 5000 milliseconds = 5 seconds
+    }, UI.CURSOR_HIDE_DELAY);
   });
 };
 
 const play = async () => {
   hidePlayButton();
   hideMenu();
-  playHelloSound();
+  await initAudio();
   await logosLoadedPromise;
+  // the papers are drawn to canvases, so the font needs to be ready
+  await document.fonts.load(`16px ${PAPER.FONT_FAMILY}`).catch(() => {});
   startShow();
   hideMouseCursorWhenInactive();
 };
@@ -48,7 +51,7 @@ const showMenuForAWhile = () => {
   if (timer !== null) clearTimeout(timer);
   timer = setTimeout(() => {
     hideMenu();
-  }, 3000); // Hide after inactivity
+  }, UI.MENU_HIDE_DELAY);
 };
 
 const showMenu = () => {

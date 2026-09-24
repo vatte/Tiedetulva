@@ -2,6 +2,7 @@
 // camera points from the origin to the center of the surface
 
 import * as THREE from "three";
+import { CAMERA } from "./params";
 
 export const createSurface = (
   scene: THREE.Scene,
@@ -98,16 +99,19 @@ export const createRectangleSurface = (
   position: THREE.Vector3
 ) => {
   // Create a WebGLRenderTarget with a rectangular shape
-  const renderTarget = new THREE.WebGLRenderTarget(1920, 1080);
+  const renderTarget = new THREE.WebGLRenderTarget(1920, 1080, {
+    samples: CAMERA.ANTIALIAS_SAMPLES,
+  });
 
   // Create a camera for the render target
   const renderTargetCamera = new THREE.PerspectiveCamera(
-    95,
-    16 / 9,
-    0.001,
-    1000
+    CAMERA.FOV,
+    CAMERA.ASPECT,
+    CAMERA.NEAR,
+    CAMERA.FAR
   );
   renderTargetCamera.lookAt(position);
+  renderTargetCamera.rotateX((CAMERA.PITCH * Math.PI) / 180);
   renderTargetScene.add(renderTargetCamera);
 
   const light = new THREE.DirectionalLight(0xffffff, 1);

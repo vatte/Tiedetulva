@@ -1,6 +1,8 @@
+import { PAPER } from "./params";
+
 export const logos: HTMLImageElement[] = [];
 
-for (let i = 1; i <= 20; i++) {
+for (let i = 1; i <= PAPER.LOGO_COUNT; i++) {
   const logo = new Image();
   logo.src = "logos/Artboard " + i + "a.png";
   logos.push(logo);
