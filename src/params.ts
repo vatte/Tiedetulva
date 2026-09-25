@@ -82,7 +82,7 @@ export const SPLASH = {
 };
 
 // Ripples washing over the paper after the crash, travelling from the top edge downwards.
-// They keep slowing down and calming until the paper has faded out.
+// They keep slowing down and calming until the paper has faded out, then keep rippling faintly.
 export const WASH = {
   AMPLITUDE: 0.0002, // initial height of the ripples
   WAVELENGTH: 0.08,
@@ -90,6 +90,7 @@ export const WASH = {
   CROSS_AMPLITUDE: 1, // relative height of the diagonal ripples crossing the main ones
   SHADING: 0.01, // how much the ripple slopes brighten/darken the paper
   REFRACTION: 0.005, // how much the ripples distort the printed text, as if seen through water
+  RESIDUAL: 0.15, // fraction of the initial height and speed the ripples calm down to, and keep afterwards
 };
 
 // A synthesized wave sound (filtered noise) plays whenever a paper splashes.
@@ -97,13 +98,31 @@ export const WASH = {
 // a random one of them is played instead.
 export const SOUND = {
   MASTER_VOLUME: 0.8,
-  VOLUME_RANDOMNESS: 0.3, // each wave is up to this fraction quieter
-  DURATION_RANDOMNESS: 0.3, // each wave is up to this fraction longer or shorter
+  // Each wave gets a random size: big waves are louder, longer and lower.
+  VOLUME_RANDOMNESS: 0.3, // the smallest waves are this fraction quieter than the biggest
+  DURATION_RANDOMNESS: 0.3, // big waves are up to this fraction longer, small ones shorter
+  // On top of the size, every layer of every wave varies on its own (0 = no variation):
+  FREQ_RANDOMNESS: 0.5, // filter frequencies shift up to this many octaves up or down
+  LEVEL_RANDOMNESS: 0.3, // each layer is up to this fraction quieter
+  TIMING_RANDOMNESS: 0.25, // delay, attack and decay vary up to this fraction
+  Q_RANDOMNESS: 4, // filter resonance of resonant layers, Q from 1 up to 1 + this
+  // Sometimes the crash (the first layer) breaks again a moment later, smaller
+  DOUBLE_BREAK_CHANCE: 0.3,
+  DOUBLE_BREAK_DELAY: [0.3, 1.2], // seconds after the first break, min and max
+  DOUBLE_BREAK_LEVEL: 0.5, // relative to the first break
   STEREO_WIDTH: 0.8, // panning follows the paper position, 0 = mono
   SAMPLE_FILES: [] as string[],
   SAMPLE_PITCH_RANDOMNESS: 0.1,
+  // Distortion on the master bus (tanh waveshaper). DRIVE 0 = off.
+  DISTORTION: {
+    DRIVE: 6, // how hard the signal is pushed into saturation
+    MIX: 0.5, // 0 = only clean sound, 1 = only distorted
+    TONE: 3000, // lowpass after the distortion (Hz), tames the fizz
+  },
   // Layers of the synthesized wave. Times in seconds, frequencies in Hz.
   // The filter frequency sweeps start -> peak during attack and peak -> end during decay.
+  // sizePitch: octaves the filter goes down for the biggest waves (and up for the smallest).
+  // resonant: the filter gets a random Q (see Q_RANDOMNESS).
   LAYERS: [
     // the crash of the breaking wave
     {
@@ -115,6 +134,8 @@ export const SOUND = {
       delay: 0,
       attack: 0.8,
       decay: 5.0,
+      sizePitch: 0.5,
+      resonant: true,
     },
     // hissing foam after the break
     {
@@ -126,6 +147,8 @@ export const SOUND = {
       delay: 0.25,
       attack: 3.0,
       decay: 10.0,
+      sizePitch: 0.2,
+      resonant: false,
     },
     // low rumble
     {
@@ -137,6 +160,8 @@ export const SOUND = {
       delay: 0,
       attack: 10.0,
       decay: 30.0,
+      sizePitch: 0.3,
+      resonant: false,
     },
   ],
 };

@@ -28,6 +28,39 @@ const makeNoiseBuffer = (context: AudioContext, seconds: number) => {
   return buffer;
 };
 
+// soft clipping curve, normalized so full scale in = full scale out
+const makeDistortionCurve = (drive: number) => {
+  const n = 4096;
+  const curve = new Float32Array(n);
+  for (let i = 0; i < n; i++) {
+    const x = (i / (n - 1)) * 2 - 1;
+    curve[i] = Math.tanh(drive * x) / Math.tanh(drive);
+  }
+  return curve;
+};
+
+// master -> clean + (waveshaper -> tone filter) -> destination
+const makeDistortion = (context: AudioContext, input: AudioNode) => {
+  const { DRIVE, MIX, TONE } = SOUND.DISTORTION;
+  if (DRIVE <= 0) {
+    input.connect(context.destination);
+    return;
+  }
+  const dry = context.createGain();
+  dry.gain.value = 1 - MIX;
+  input.connect(dry).connect(context.destination);
+
+  const shaper = context.createWaveShaper();
+  shaper.curve = makeDistortionCurve(DRIVE);
+  shaper.oversample = "4x";
+  const tone = context.createBiquadFilter();
+  tone.type = "lowpass";
+  tone.frequency.value = TONE;
+  const wet = context.createGain();
+  wet.gain.value = MIX;
+  input.connect(shaper).connect(tone).connect(wet).connect(context.destination);
+};
+
 // must be called from a user gesture (e.g. a click) for the browser to allow audio
 export const initAudio = async () => {
   if (context !== null) {
@@ -37,7 +70,7 @@ export const initAudio = async () => {
   context = new AudioContext();
   master = context.createGain();
   master.gain.value = SOUND.MASTER_VOLUME;
-  master.connect(context.destination);
+  makeDistortion(context, master);
   noise = makeNoiseBuffer(context, 5);
 
   for (const file of SOUND.SAMPLE_FILES) {
@@ -61,15 +94,29 @@ const playSample = (destination: AudioNode, volume: number) => {
   source.start();
 };
 
+type Layer = (typeof SOUND.LAYERS)[number];
+
+// random number between -amount and amount
+const spread = (amount: number) => (Math.random() * 2 - 1) * amount;
+
+// size from 0 (smallest wave) to 1 (biggest)
 const playNoiseLayer = (
-  layer: (typeof SOUND.LAYERS)[number],
+  layer: Layer,
   destination: AudioNode,
   volume: number,
-  timeScale: number
+  size: number,
+  delayOffset = 0
 ) => {
-  const start = context!.currentTime + layer.delay * timeScale;
-  const peak = start + layer.attack * timeScale;
-  const end = peak + layer.decay * timeScale;
+  const timeScale = 1 + (size * 2 - 1) * SOUND.DURATION_RANDOMNESS;
+  const time = (seconds: number) =>
+    seconds * timeScale * (1 + spread(SOUND.TIMING_RANDOMNESS));
+  const start = context!.currentTime + delayOffset + time(layer.delay);
+  const peak = start + time(layer.attack);
+  const end = peak + time(layer.decay);
+
+  const octaves = (1 - size * 2) * layer.sizePitch + spread(SOUND.FREQ_RANDOMNESS);
+  const freqScale = Math.pow(2, octaves);
+  const freq = (hz: number) => Math.min(hz * freqScale, context!.sampleRate / 2 - 1);
 
   const source = context!.createBufferSource();
   source.buffer = noise;
@@ -77,13 +124,15 @@ const playNoiseLayer = (
 
   const filter = context!.createBiquadFilter();
   filter.type = layer.filter;
-  filter.frequency.setValueAtTime(layer.freqStart, start);
-  filter.frequency.exponentialRampToValueAtTime(layer.freqPeak, peak);
-  filter.frequency.exponentialRampToValueAtTime(layer.freqEnd, end);
+  if (layer.resonant) filter.Q.value = 1 + Math.random() * SOUND.Q_RANDOMNESS;
+  filter.frequency.setValueAtTime(freq(layer.freqStart), start);
+  filter.frequency.exponentialRampToValueAtTime(freq(layer.freqPeak), peak);
+  filter.frequency.exponentialRampToValueAtTime(freq(layer.freqEnd), end);
 
+  const level = layer.level * volume * (1 - Math.random() * SOUND.LEVEL_RANDOMNESS);
   const gain = context!.createGain();
   gain.gain.setValueAtTime(0.0001, start);
-  gain.gain.exponentialRampToValueAtTime(layer.level * volume, peak);
+  gain.gain.exponentialRampToValueAtTime(level, peak);
   gain.gain.exponentialRampToValueAtTime(0.0001, end);
 
   source.connect(filter).connect(gain).connect(destination);
@@ -99,15 +148,26 @@ export const playWaveSound = (pan: number) => {
   panner.pan.value = pan * SOUND.STEREO_WIDTH;
   panner.connect(master);
 
-  const volume = 1 - Math.random() * SOUND.VOLUME_RANDOMNESS;
+  const size = Math.random();
+  const volume = 1 - (1 - size) * SOUND.VOLUME_RANDOMNESS;
 
   if (samples.length > 0) {
     playSample(panner, volume);
     return;
   }
 
-  const timeScale = 1 + (Math.random() * 2 - 1) * SOUND.DURATION_RANDOMNESS;
   for (const layer of SOUND.LAYERS) {
-    playNoiseLayer(layer, panner, volume, timeScale);
+    playNoiseLayer(layer, panner, volume, size);
+  }
+
+  if (Math.random() < SOUND.DOUBLE_BREAK_CHANCE) {
+    const [minDelay, maxDelay] = SOUND.DOUBLE_BREAK_DELAY;
+    playNoiseLayer(
+      SOUND.LAYERS[0],
+      panner,
+      volume * SOUND.DOUBLE_BREAK_LEVEL,
+      size * Math.random(),
+      minDelay + Math.random() * (maxDelay - minDelay)
+    );
   }
 };

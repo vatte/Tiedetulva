@@ -18,7 +18,7 @@ import {
 } from "./makePaper";
 import { PaperStyle, randomPaperStyle } from "./drawPaperToCanvas";
 import { playWaveSound } from "./audio";
-import { CAMERA, OCEAN, SPLASH } from "./params";
+import { CAMERA, OCEAN, SPLASH, WASH } from "./params";
 
 const DEG = Math.PI / 180;
 const X_AXIS = new THREE.Vector3(1, 0, 0);
@@ -313,12 +313,22 @@ export class Ocean {
       SPLASH.TEXT_FADE_DURATION -
       SPLASH.CRASH_AT * SPLASH.RISE_DURATION;
     const seconds = duration / 1000;
+    const r = WASH.RESIDUAL;
     const wash = new TWEEN.Tween({ value: 0 })
       .to({ value: 1 }, duration)
       .onUpdate(({ value: u }) => {
-        // the ripples travel at (1 - u)^2 times their initial speed
-        uniforms.washTime.value = (seconds / 3) * (1 - (1 - u) ** 3);
-        uniforms.wash.value = 1 - u;
+        // the ripples travel at r + (1 - r) * (1 - u)^2 times their initial speed
+        uniforms.washTime.value =
+          seconds * (r * u + ((1 - r) / 3) * (1 - (1 - u) ** 3));
+        uniforms.wash.value = r + (1 - r) * (1 - u);
+      })
+      .onComplete(() => {
+        // afterwards the small ripples keep going at the residual speed until the paper is released
+        const hour = 3600;
+        const residual = new TWEEN.Tween(uniforms.washTime)
+          .to({ value: uniforms.washTime.value + r * hour }, hour * 1000)
+          .start();
+        paper.tweens.push(residual);
       })
       .start();
     paper.tweens.push(wash);
