@@ -1,5 +1,5 @@
 //import node-midi
-import * as midi from "midi";
+import * as midi from "@julusian/midi";
 //import ws
 import * as WebSocket from "ws";
 //import express static

@@ -1,4 +1,4 @@
-import { MidiMessage } from "midi";
+import { MidiMessage } from "@julusian/midi";
 
 //create a ws connection to the midi server
 const ws = new WebSocket("ws://localhost:8080");

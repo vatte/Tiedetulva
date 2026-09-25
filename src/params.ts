@@ -27,10 +27,10 @@ export const OCEAN = {
   WATER_LEVEL: -0.7, // height of the water surface relative to the camera
   FAR_DISTANCE: 50, // new papers appear at this distance from the break point
   SPREAD: 140, // angle of the fan in degrees, 180 = everything in front of the break point
-  PAPER_SPACING: 0.6, // average distance between papers, smaller = denser surface
+  PAPER_SPACING: 0.4, // average distance between papers, smaller = denser surface
   POSITION_JITTER: 0.15, // random offset of each paper from its place in the pattern
   YAW_JITTER: 30, // random rotation of each paper around the vertical axis (degrees)
-  BRIGHTNESS: 0.4, // brightness of papers on the surface (1 = original colors)
+  BRIGHTNESS: 0.3, // brightness of papers on the surface (1 = original colors)
   BACK_SHOW_THROUGH: 0.5, // how much the print shows through the blank back of the floating papers
   FOG_NEAR: 3.5, // papers start fading into the dark at this distance...
   FOG_FAR: 49, // ...and are invisible at this distance (keep <= FAR_DISTANCE)
@@ -57,18 +57,18 @@ export const WAVES = {
 // rising on a towering wave with its top rolled back, and unrolls towards the viewer as it crashes down upright
 // close in front of the viewer, where ripples wash over it.
 export const SPLASH = {
-  BREAK_DISTANCE: 0.3, // distance of the break point from the viewer
-  BREAK_RADIUS: 0.2, // papers splash when they are this close to the break point
+  BREAK_DISTANCE: 0.1, // distance of the break point from the viewer
+  BREAK_RADIUS: 0.5, // papers splash when they are this close to the break point
   FIRST_DELAY: 3000, // time until the first splash
   MIN_INTERVAL: 8000, // minimum time between splashes
   RANDOM_INTERVAL: 16000, // random extra time between splashes
-  RISE_DURATION: 1200, // time from floating face down to upright in the reading position
+  RISE_DURATION: 1400, // time from floating face down to upright in the reading position
   CREST_HEIGHT: -0.08, // height (relative to the camera) that the rising wave reaches for, the paper peaks lower
   CURL: 60, // how far the top of the paper is rolled back behind it before unrolling towards the viewer (degrees between the bottom and top edge)
   CRASH_AT: 0.6, // fraction of the rise at which the crest crashes: the paper unrolls and the ripples start
-  READ_DISTANCE: 0.17, // distance from the camera of the upright paper
+  READ_DISTANCE: 0.22, // distance from the camera of the upright paper
   READ_HEIGHT: -0.1, // height of the upright paper relative to the camera
-  READ_X_RANGE: 0.1, // papers arriving from the far left / right stand up this far left / right
+  READ_X_RANGE: 0.14, // papers arriving from the far left / right stand up this far left / right
   SEGMENTS_X: 24, // subdivisions of the splashing paper, more = smoother curl and ripples
   SEGMENTS_Y: 32,
   DRIFT_DELAY: 2000, // pause after the splash before drifting towards the viewer
